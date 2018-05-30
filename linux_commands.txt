@@ -1,0 +1,15 @@
+Command      | Effect
+ls           | show contents of current folder
+pwd          | show current folder name/path
+cd dir       | enter folder named "dir"
+cd           | go to home folder
+cd ..        | go "up" one folder level 
+mkdir dir    | create a folder named "dir" (inside the folder you currently occuclear        | clear the screen
+python3 a.py | run a python program named "a.py"
+
+
+Useful things:
+- Use the up and down arrow keys to scroll through previously run commands
+- Use the mouse for copy/paste because ctrl-c, ctrl-v have different uses here
+- Press tab partway through typing a folder or file name to autocomplete
+-   e.g. "cd Des"+tab will autocomplete to "cd Desktop"
