@@ -4,7 +4,8 @@ pwd          | show current folder name/path
 cd dir       | enter folder named "dir"
 cd           | go to home folder
 cd ..        | go "up" one folder level 
-mkdir dir    | create a folder named "dir" (inside the folder you currently occuclear        | clear the screen
+mkdir dir    | create a folder named "dir" (inside the folder you currently occupy
+clear        | clear the screen
 python3 a.py | run a python program named "a.py"
 
 
