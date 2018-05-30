@@ -50,3 +50,4 @@ print () #empty print outputs a newline
 #   final_cost = (1 + tax_rate) * base_cost
 
 
+# Submit your lab to the blackboard assignment "Lab 1"
