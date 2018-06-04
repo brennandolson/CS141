@@ -1,0 +1,24 @@
+Useful functions:
+sys.exit() - exits the program. Must include “import sys” prior to running.
+x.lowercase() - returns a copy of string x with all letters set to lower case.
+
+Create a program entitled Lab3.py which mimics a simple ATM menu system in the following way:
+
+1. Set the initial account balance to $2000.
+
+2. Print the following menu to the terminal
+   Welcome to the CS141 Bank
+   Please choose either (D)eposit or (W)ithdrawal:
+
+2a If the user inputs something either than d, D, w, or W, print “Invalid
+   option” and exit the program.
+
+3. Ask the user for an amount of money to deposit/withdraw.
+
+4. Check the validity of the input (should be a positive floating point
+   number). If it is invalid, print “Invalid amount” and exit.
+
+5. Update the user’s balance according to their request. If they attempt to
+   withdraw more than their current balance, print “Overdraft” and exit.
+
+6. Print the user’s final account balance.
