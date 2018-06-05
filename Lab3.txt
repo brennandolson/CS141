@@ -1,6 +1,6 @@
 Useful functions:
 sys.exit() - exits the program. Must include “import sys” prior to running.
-x.lowercase() - returns a copy of string x with all letters set to lower case.
+x.lower() - returns a copy of string x with all letters set to lower case.
 
 Create a program entitled Lab3.py which mimics a simple ATM menu system in the following way:
 
