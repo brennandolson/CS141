@@ -2,7 +2,8 @@
 # Lab 4
 
 Part 1:
-Write a program which prompts the user for numbers repeatedly until the user inputs a -1. Then return the average of all numbers input by the user, except for the -1 (which is used merely as a flag to stop).
+Write a program which prompts the user for numbers repeatedly until the user inputs a -1. 
+Then return the average of all numbers input by the user, except for the -1 (which is used merely as a flag to stop).
 
 Example interaction
 Input a number: 30
@@ -16,7 +17,8 @@ The average is 7.45
 
 
 Part 2:
-Write a program which accepts a number n from the user, and then outputs the “hailstone sequence” (also known as the Collatz sequence) starting at n.
+Write a program which accepts a number n from the user, and then outputs the “hailstone sequence” 
+(also known as the Collatz sequence) starting at n.
 The “hailstone sequence” is defined as follows:
   If n ever equals 1, stop.
   If n is even, divide n by 2 and repeat.
