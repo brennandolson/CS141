@@ -22,7 +22,7 @@ and capital letters unchanged.
 An example interaction with this program might look like this
 
 input a shift amount: 3
-input a message: I am a pizza fan!
+input a message: I am a pizza man!
 encoded message: I dp d slccd pdq!
 
 #Helpful functions
