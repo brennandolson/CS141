@@ -1,0 +1,38 @@
+# CS141 - Summer 2018
+# Lab 5 - String Manipulation
+
+#Caesar Ciphers
+In this lab you will implement a simple encryption known as
+a “Caesar cipher”. In a Caesar cipher, a message is encrypted by
+shifting all of its letters to the “right” in the alphabet by
+the same distance, wrapping around from z to a as needed.
+
+For example, if the original message was “a cat”, a Caesar cipher
+with a shift of one would result in the encoded message “b dub”.
+A Caesar cipher with a shift of 3 would encode “pizza” as “slccd”. Note
+that ‘z’ was sent to ‘c’, because the shifting “wraps around” from ‘z’ to ‘a’.
+
+#Problem description
+Write a program which first accepts a positive whole number shift from the user.
+Then accept a string from the user and return the Caesar shift of the message by 
+the shift amount.
+You only need to encode the lower case letters, leaving punctuation, whitespace, 
+and capital letters unchanged.
+
+An example interaction with this program might look like this
+
+input a shift amount: 3
+input a message: I am a pizza fan!
+encoded message: I dp d slccd pdq!
+
+#Helpful functions
+ord(c) - returns the ASCII value for the character c
+chr(n) - returns the character with ASCII value n
+s.islower() - returns True if every character in s is a lowercase letter
+s1 += s2 - appends string s2 to string s1
+for c in s: - loops through each character in a string s
+
+val = ord(c) - ord(‘a’) - sends a lower case letter c to its value in the range 0..25
+c = chr(val + ord(‘a’)) - sends a number val in the range 0..25 to the letter in that
+position in the alphabet
+
