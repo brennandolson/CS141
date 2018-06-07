@@ -8,7 +8,7 @@ shifting all of its letters to the “right” in the alphabet by
 the same distance, wrapping around from z to a as needed.
 
 For example, if the original message was “a cat”, a Caesar cipher
-with a shift of one would result in the encoded message “b dub”.
+with a shift of 1 would result in the encoded message “b dbu”.
 A Caesar cipher with a shift of 3 would encode “pizza” as “slccd”. Note
 that ‘z’ was sent to ‘c’, because the shifting “wraps around” from ‘z’ to ‘a’.
 
