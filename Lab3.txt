@@ -15,8 +15,8 @@ Create a program entitled Lab3.py which mimics a simple ATM menu system in the f
 
 3. Ask the user for an amount of money to deposit/withdraw.
 
-4. Check the validity of the input (should be a positive floating point
-   number). If it is invalid, print “Invalid amount” and exit.
+4. Check the validity of the input (should be a positive number). 
+   If it is invalid, print “Invalid amount” and exit.
 
 5. Update the user’s balance according to their request. If they attempt to
    withdraw more than their current balance, print “Overdraft” and exit.
