@@ -7,7 +7,7 @@ Create a program entitled Lab3.py which mimics a simple ATM menu system in the f
 1. Set the initial account balance to $2000.
 
 2. Print the following menu to the terminal
-   Welcome to the CS141 Bank
+   Welcome to the CMSC105 Bank
    Please choose either (D)eposit or (W)ithdrawal:
 
 2a If the user inputs something either than d, D, w, or W, print “Invalid
